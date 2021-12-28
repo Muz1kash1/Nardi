@@ -3,6 +3,7 @@
 
 #include<iostream>
 #include<vector>
+#include "spisok.h"
 
 
 #ifndef Nardi_h
@@ -10,37 +11,28 @@
 
 class Sole_fild {
 private:
-	int fieldnum; //номер поля
+	
 	std::vector<Fishka*> fishki_v_pole;
-	bool if_is_a_house;
+	
 public:
-	void set_state(bool& state)
-	{
-		if_is_a_house = state;
-	}
-	bool get_state()
-	{
-		return if_is_a_house;
-	}
+
 	std::vector<Fishka*> get_fishki() {
 		return fishki_v_pole;
 	}
-	int get_num()
-	{
-		return fieldnum;
-	}
-	void set_num(int& num)
-	{
-		fieldnum = num;
-	}
+	
 	void add_fishka(Fishka* fi)
 	{
 		fishki_v_pole.push_back(fi);
 	}
+
+	void delete_fishka()
+	{
+		fishki_v_pole.pop_back();
+	}
 };
 
 class Fishka {
-private:
+public:
 	bool color; // true - белый , false-черный
 };
 
@@ -54,6 +46,11 @@ class Board {
 class Game {
 	void getwinner();
 	void Not_over();
-	void Make_move();
+	void Make_move(list& current_pos, int movestep, Fishka* fi);
+};
+
+class Player {
+	public:
+	bool color;
 };
 #endif
