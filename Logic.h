@@ -9,45 +9,33 @@
 #ifndef Nardi_h
 #define Nardi_h
 
-class Sole_fild {
-private:
-	
-	std::vector<Fishka*> fishki_v_pole;
-	
-public:
-
-	std::vector<Fishka*> get_fishki() {
-		return fishki_v_pole;
-	}
-	
-	void add_fishka(Fishka* fi)
-	{
-		fishki_v_pole.push_back(fi);
-	}
-
-	void delete_fishka()
-	{
-		fishki_v_pole.pop_back();
-	}
-};
-
-class Fishka {
-public:
-	bool color; // true - белый , false-черный
+struct Field{
+	enum ColorEnum {
+		None = 0,
+		White = 1,
+		Black = 2,
+	};
+	int amount;
+	ColorEnum color;
 };
 
 class Board {
+	Field play_fildes[24];
+	int white_home;
+	int black_home;
 
-	Sole_fild* play_fildes[24];
-	void checkmove();
-	void reset_map();
+	void init_board();
+
+	void checkmove(int cell, int step);
+	void draw_map();
 };
 
-class Game {
-	void getwinner();
-	void Not_over();
-	void Make_move(list& current_pos, int movestep, Fishka* fi);
-};
+
+
+Board::checkmove(int cell, int step){
+	int end_cell = cell+step;
+	if(end_cell)
+}
 
 class Player {
 	public:
