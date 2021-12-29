@@ -56,7 +56,7 @@ Field::ColorEnum flip_turn(Field::ColorEnum current) {
 
 int main(){
     setlocale(LC_ALL, "Russian");
-
+    srand(time(0));
     Board board;
     board.init();
     std::string winner = "";
