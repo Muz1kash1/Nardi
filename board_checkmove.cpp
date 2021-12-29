@@ -45,7 +45,7 @@ std::string Board::checkmove(int cell, int step, Field::ColorEnum moving_color) 
 	case Field::Black:
 		if (cell < black_verge && end_cell >= black_verge) {
 			if (blacks_at_home != figures_amount) {
-				return "Ошибка: выход белых из дома до переноса всех фигур в него";
+				return "Ошибка: выход чёрных из дома до переноса всех фигур в него";
 			}
 			else {
 				decrement_cell(cell);

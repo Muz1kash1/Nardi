@@ -149,11 +149,18 @@
     <ClCompile Include="board_init.cpp" />
     <ClCompile Include="board_modify_cells.cpp" />
     <ClCompile Include="board_to_check_win.cpp" />
+    <ClCompile Include="double_cube_step.cpp" />
+    <ClCompile Include="flip_turns.cpp" />
+    <ClCompile Include="make_step.cpp" />
     <ClCompile Include="Nardi.cpp" />
+    <ClCompile Include="print_annotation.cpp" />
+    <ClCompile Include="roll_cube.cpp" />
+    <ClCompile Include="simple_step.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="board.hpp" />
     <ClInclude Include="field.hpp" />
+    <ClInclude Include="main_functions.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
