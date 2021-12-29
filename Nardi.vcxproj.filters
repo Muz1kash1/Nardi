@@ -13,14 +13,35 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\board">
+      <UniqueIdentifier>{ad5b5fd4-fa39-4f1a-a6ee-55fc80522c0c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="board_init.cpp">
+      <Filter>Исходные файлы\board</Filter>
+    </ClCompile>
     <ClCompile Include="Nardi.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="board_checkmove.cpp">
+      <Filter>Исходные файлы\board</Filter>
+    </ClCompile>
+    <ClCompile Include="board_modify_cells.cpp">
+      <Filter>Исходные файлы\board</Filter>
+    </ClCompile>
+    <ClCompile Include="board_to_check_win.cpp">
+      <Filter>Исходные файлы\board</Filter>
+    </ClCompile>
+    <ClCompile Include="board_draw.cpp">
+      <Filter>Исходные файлы\board</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h">
+    <ClInclude Include="board.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="field.hpp">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
