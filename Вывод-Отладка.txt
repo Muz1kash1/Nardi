@@ -1,0 +1,74 @@
+﻿"Nardi.exe" (Win32). Загружено "C:\Users\lolig\source\repos\Nardi\x64\Release\Nardi.exe". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\ntdll.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\kernel32.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\KernelBase.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\user32.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\win32u.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\gdi32.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\gdi32full.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\msvcp_win.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\ucrtbase.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\advapi32.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\msvcrt.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\sechost.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\rpcrt4.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\msvcp140.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\vcruntime140_1.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\winmm.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\vcruntime140.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\opengl32.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\combase.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\glu32.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\imm32.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\uxtheme.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\msctf.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\oleaut32.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\kernel.appcore.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\bcryptprimitives.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\clbcatq.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\AppXDeploymentClient.dll". Символы загружены.
+"Nardi.exe" (Win32). Выгружено "C:\Windows\System32\AppXDeploymentClient.dll"
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\DriverStore\FileRepository\u0373652.inf_amd64_97d024528a122d1a\B372726\atig6pxx.dll". 
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\DriverStore\FileRepository\u0373652.inf_amd64_97d024528a122d1a\B372726\atio6axx.dll". 
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\setupapi.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\dxva2.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\cfgmgr32.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\version.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\bcrypt.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\ole32.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\dwmapi.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\dxgi.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\ResourcePolicyClient.dll". Символы загружены.
+"Nardi.exe" (Win32). Выгружено "C:\Windows\System32\ResourcePolicyClient.dll"
+"Nardi.exe" (Win32). Выгружено "C:\Windows\System32\dxgi.dll"
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\DriverStore\FileRepository\u0373652.inf_amd64_97d024528a122d1a\B372726\atig6txx.dll". 
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\atiadlxx.dll". 
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\shell32.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\psapi.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\propsys.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\pdh.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\devobj.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\wintrust.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\crypt32.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\msasn1.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\windows.storage.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\wldp.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\SHCore.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\shlwapi.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\DXCore.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\dinput8.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\InputHost.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\WinTypes.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\CoreMessaging.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\CoreUIComponents.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\ws2_32.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\ntmarta.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\hid.dll". Символы загружены.
+"Nardi.exe" (Win32). Загружено "C:\Windows\System32\TextInputFramework.dll". Символы загружены.
+Поток 0x3f60 завершился с кодом -1073741510 (0xc000013a).
+Поток 0x449c завершился с кодом -1073741510 (0xc000013a).
+Поток 0x1aac завершился с кодом -1073741510 (0xc000013a).
+Поток 0x193c завершился с кодом -1073741510 (0xc000013a).
+Поток 0x40c завершился с кодом -1073741510 (0xc000013a).
+Поток 0x1294 завершился с кодом -1073741510 (0xc000013a).
+Программа "[8948] Nardi.exe" завершилась с кодом -1073741510 (0xc000013a).

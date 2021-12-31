@@ -1,8 +1,21 @@
 ﻿#include "main_functions.hpp"
 #include <iostream>
 #include <locale>
+#include <SFML/Graphics/RenderWindow.hpp>
+#include <SFML/Graphics/CircleShape.hpp>
+#include "window.hpp"
+
+
 
 int main(){
+    window->clear(sf::Color::Black);
+    sf::CircleShape circ;
+    circ.setRadius(100.f);
+    circ.setPosition(100,100);
+    circ.setFillColor(sf::Color::Red);
+    window->draw(circ);
+    window->display();
+
     setlocale(LC_ALL, "Russian");
     srand(time(0));
     Board board;
