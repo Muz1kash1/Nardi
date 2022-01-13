@@ -1,18 +1,9 @@
 #pragma once
 #include "color.h"
-class Narda
-
-{
-
-	
-	ColorEnum color;
+class Narda{
+	ColorEnum color = None;
 public:
-	void setcolor(ColorEnum color_to_set) {
-		color = color_to_set;
-	}
-	ColorEnum getcolor() {
-			return color;
-		}
-
+	void setColor(ColorEnum color_to_set);
+	ColorEnum getColor();
 };
 
