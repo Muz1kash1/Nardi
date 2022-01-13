@@ -17,18 +17,18 @@ void Board::draw_map() {
 	}
 	for (int i = 0; i < 24; i++) {
 		Field field = play_fields[i];
-		if (field.amount > 0) {
-			char brush = (field.color == ColorEnum{White}) ? 'W' : 'B';
+		if (field.getAmount() > 0) {
+			char brush = (field.getColor() == ColorEnum{White}) ? 'W' : 'B';
 			int x = getX(i);
 			if (i < 12) {
-				for (int j = 0; j < field.amount; j++) {
+				for (int j = 0; j < field.getAmount(); j++) {
 					canvas[j][x-1] = '|';
 					canvas[j][x] = brush;
 					canvas[j][x+1] = '|';
 				}
 			} // нарды отображаютс€ сверху в низ дл€ верних 12 полей
 			else {
-				for (int j = 0; j < field.amount; j++) {
+				for (int j = 0; j < field.getAmount(); j++) {
 					canvas[30-j][x - 1] = '|';
 					canvas[30-j][x] = brush;
 					canvas[30-j][x + 1] = '|';
@@ -40,9 +40,9 @@ void Board::draw_map() {
 		canvas[0][2 * i + 1] = '|';
 		canvas[30][2 * i + 1] = '|';
 	}
-	for (int i = 0; i < whites_leaved; i++)
+	for (int i = 0; i < leaved.getWhites(); i++)
 		canvas[8 + i][27] = 'W';
-	for (int i = 0; i < blacks_leaved; i++)
+	for (int i = 0; i < leaved.getBlacks(); i++)
 		canvas[8+i][0] = 'B';
 
 	for (int i = 0; i < 31; i++)

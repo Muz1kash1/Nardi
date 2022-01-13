@@ -8,12 +8,12 @@ const int start_amount = 15; // количество нард на старте у каждого игрока
 
 void Board::init() {
 	Nard_factory nard_factory;
-	whites_at_home = 0;
-	blacks_at_home = 0;
-	play_fields[white_start].Nards_in_field.resize(15);
-	play_fields[black_start].Nards_in_field.resize(15);
-	whites_leaved = 0;
-	blacks_leaved = 0;
+	homes.setWhites(0);
+	homes.setBlacks(0);
+	play_fields[white_start].Nards_in_field.resize(start_amount);
+	play_fields[black_start].Nards_in_field.resize(start_amount);
+	leaved.setWhites(0);
+	leaved.setBlacks(0);
 
 	for (int i = 0; i < start_amount; i++) {
 		play_fields[white_start].Nards_in_field[i] = nard_factory.create_nard(White);

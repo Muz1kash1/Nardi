@@ -2,24 +2,26 @@
 #include "field.hpp"
 #include <string>
 #include "color.h"
-
+#include "homes.h"
+#include "leaved.h"
+#include "Iplayer.h"
 extern const int field_amount;
 
-class Board {
+class Board{
 	Field play_fields[24]; // наши 24 поля
-	int whites_at_home; // белые нарды в доме
-	int blacks_at_home; // черные нарды в доме
-
-	int whites_leaved; // белые нарды покинувшие доску
-	int blacks_leaved; // черные нарды покинувшие доску
-
+	Homes homes;
+	Leaved leaved;
 
 	void increment_cell(int cell, ColorEnum color);
 	void decrement_cell(int cell);
 
 public:
 	void init();
-	std::string checkmove(int cell, int step, ColorEnum moving_color);
+
+	std::string white_move(int end_cell, int cell);
+	std::string black_move(int end_cell, int cell);
+
+	std::string checkmove(int cell, int step, Iplayer* player);
 	std::string to_check_win();
 	void draw_map();
 };

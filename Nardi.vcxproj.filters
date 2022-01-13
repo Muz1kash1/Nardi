@@ -16,6 +16,24 @@
     <Filter Include="Исходные файлы\board">
       <UniqueIdentifier>{ad5b5fd4-fa39-4f1a-a6ee-55fc80522c0c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\narda">
+      <UniqueIdentifier>{b9927611-9646-42ab-b7c7-72021656c296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\leaved">
+      <UniqueIdentifier>{ba343933-b5a6-4d00-b98f-59e80477c98e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\homes">
+      <UniqueIdentifier>{bb24e205-12ea-4e7a-ac21-602af671d825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\field">
+      <UniqueIdentifier>{036b9d3e-a5ce-407b-8379-77523555e43f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\players">
+      <UniqueIdentifier>{07446043-5d31-4a29-b5e0-2e7a80aaea24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\players">
+      <UniqueIdentifier>{8c70b875-3f42-4a68-865a-0af658f3ff6f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="board_init.cpp">
@@ -45,6 +63,24 @@
     <ClCompile Include="Iplayer.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="narda_setget.cpp">
+      <Filter>Исходные файлы\narda</Filter>
+    </ClCompile>
+    <ClCompile Include="leaved_getset.cpp">
+      <Filter>Исходные файлы\leaved</Filter>
+    </ClCompile>
+    <ClCompile Include="homes_getset.cpp">
+      <Filter>Исходные файлы\homes</Filter>
+    </ClCompile>
+    <ClCompile Include="field_getset.cpp">
+      <Filter>Исходные файлы\field</Filter>
+    </ClCompile>
+    <ClCompile Include="whitePlayer.cpp">
+      <Filter>Исходные файлы\players</Filter>
+    </ClCompile>
+    <ClCompile Include="blackPlayer.cpp">
+      <Filter>Исходные файлы\players</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="board.hpp">
@@ -59,8 +95,20 @@
     <ClInclude Include="Nard_factory.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Iplayer.h">
+    <ClInclude Include="homes.h">
       <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="leaved.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Iplayer.h">
+      <Filter>Файлы заголовков\players</Filter>
+    </ClInclude>
+    <ClInclude Include="WhitePlayer.h">
+      <Filter>Файлы заголовков\players</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackPlayer.h">
+      <Filter>Файлы заголовков\players</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

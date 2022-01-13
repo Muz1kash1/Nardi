@@ -144,22 +144,32 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="blackPlayer.cpp" />
     <ClCompile Include="board_checkmove.cpp" />
     <ClCompile Include="board_draw.cpp" />
     <ClCompile Include="board_init.cpp" />
     <ClCompile Include="board_modify_cells.cpp" />
     <ClCompile Include="board_to_check_win.cpp" />
+    <ClCompile Include="field_getset.cpp" />
+    <ClCompile Include="homes_getset.cpp" />
     <ClCompile Include="Iplayer.cpp" />
+    <ClCompile Include="leaved_getset.cpp" />
     <ClCompile Include="Nardi.cpp" />
     <ClCompile Include="color.h" />
     <ClCompile Include="Nard_factory.cpp" />
+    <ClCompile Include="narda_setget.cpp" />
+    <ClCompile Include="whitePlayer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BlackPlayer.h" />
     <ClInclude Include="board.hpp" />
     <ClInclude Include="field.hpp" />
+    <ClInclude Include="homes.h" />
     <ClInclude Include="Iplayer.h" />
+    <ClInclude Include="leaved.h" />
     <ClInclude Include="Narda.h" />
     <ClInclude Include="Nard_factory.h" />
+    <ClInclude Include="WhitePlayer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
