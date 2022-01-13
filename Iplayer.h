@@ -1,6 +1,5 @@
 #pragma once
-class Iplayer
-{
-
+class Iplayer{
+	void makeMove();
 };
 
